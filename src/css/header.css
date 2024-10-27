@@ -1,9 +1,7 @@
-.header {
-  padding: 20px 0;
-}
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 20px 0;
 }
 .nav-logo {
   display: inline-flex;
@@ -13,7 +11,7 @@
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 40px;
 }
 .nav-link {

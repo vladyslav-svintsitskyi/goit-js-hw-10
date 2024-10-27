@@ -1,0 +1,71 @@
+.form {
+  text-align: start;
+  margin-top: 36px;
+  margin-left: 156px;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  width: 360px;
+}
+
+.input-label {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 364px;
+  margin-bottom: 16px;
+}
+
+.delay-input {
+  margin-top: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+legend {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-left: 24px;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+  max-width: 360px;
+  padding: 0;
+  padding-top: 26px;
+  padding-bottom: 6px;
+  margin: 0;
+  border-width: 2px;
+  margin-bottom: 26px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+}
